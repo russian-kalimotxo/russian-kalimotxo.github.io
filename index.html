@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Kalimotxo</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<head>
+</head>
+<body class="center bg2 max">
+<div id="main">
+<h1 class="tab blink">Добро пожаловать на сайт</h1>
+<img class="intro" id="about" height="75" src="baby.gif">
+<img class="intro" id="about" src="text.gif">
+<img class="intro" id="about" height="75" src="baby.gif">
+<img src="line.gif">
+<div id="home">
+<h4> <span class="line">| </span><a href="#home">дом</a> <span class="line">|</span>
+<a href="#working">рецепт приготовления</a> <span class="line">|</span>
+<a href="#about"> источник </a> <span class="line">|</span>
+</h4>
+</div>
+
+<h2>Я создал этот сайт, чтобы объяснить, как </h2>
+<h2 id="working">приготовить любимый напиток моей бабушки.</h2>
+<h1 class="jump" id="link_id">
+    <img src="music.gif" height="30px"> 
+    <span> играть <u >Катюша</u> музыку</span>
+    <img src="music.gif" height="30px"> 
+</h1>
+<p></p>
+<img width="650" height="400" src="russia.jpeg">
+<h2>лучший способ погреться зимой.</h2>
+<p></p>
+</div>
+<footer id="footer">
+<img src="line.gif">
+<p></p>
+<span><img width="75" height="55" src="email.gif"></span>
+<span><img width="100" height="55" src="ie.gif"></span>
+<span><img width="75" height="55" src="email.gif"></span>
+
+<audio controls id="linkAudio">
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+<script src="cursor.js"></script>
+
+<script>
+new snowflakeCursor()
+document.getElementById("linkAudio").style.display = "none";
+document.getElementById("link_id").addEventListener("click", function () {
+myAudio=document.getElementById("linkAudio")
+myAudio.paused ? myAudio.play() : myAudio.pause();
+  });
+</script>
+
+</footer>
+</body>
+
+Based on Template by Pizza Squeeze (https://codepen.io/nikillpop/pen/VdJjJW)  
+Music by Sp00n .exe (https://www.youtube.com/watch?v=O7PKpR6D4Aw)
+
+</body>
+</html>
