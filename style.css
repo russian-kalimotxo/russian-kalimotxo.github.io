@@ -23,10 +23,10 @@ html, body{
     word-wrap: break-word;
 }
 .bg1{
-	background-image: url("https://i.imgur.com/YUPql5N.gif");
+	background-image: url("back1.gif");
 }
 .bg2{
-	background-image: url("https://i.imgur.com/SHZe50s.gif");
+	background-image: url("back2.gif");
 }
 a{
 	color: #000000;
@@ -52,9 +52,6 @@ h1, h2, h3, p, a {
 }
 span.line{
   color: red;
-}
-.cursor{
-    cursor: url(https://i.imgur.com/RUE567I.gif), auto;
 }
 
 /* @group Blink */
